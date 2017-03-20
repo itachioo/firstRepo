@@ -13,6 +13,7 @@ public class DeleteNode {
 	public static Node deleteNode(Node head, Node toDelete){
 		Node delete;
 		if (head==null || head.next==null) return head;
+		//待删除节点是尾节点时		
 		else if(toDelete.next==null) {
 			delete = toDelete;
 			Node current = head;
