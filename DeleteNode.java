@@ -1,6 +1,7 @@
 package exercise;
 
 /**
+ * 给定链表的头指针和一个结点指针，在O(1)时间删除该结点。
  * Created by hgang on 2017/3/20.
  */
 public class DeleteNode {
